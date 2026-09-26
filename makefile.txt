@@ -1,0 +1,7 @@
+build:
+	gcc -g main.c -o ladders.exe
+
+run_fun:
+	./ladders.exe -p ON -n 4 -d dictionary.txt -s RAND -f RAND
+
+    
